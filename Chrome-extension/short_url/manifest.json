@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "Short Url",
+  "description": "Short Url, just for fun.",
+  "version": "1.0",
+  "permissions": [
+    "http://*/",
+    "tabs"
+  ],
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  }
+}
