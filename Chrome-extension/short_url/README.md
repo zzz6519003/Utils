@@ -16,4 +16,5 @@
 
 ## 使用截图
 
-![screenshoot](https://github.com/Wizmann/Utils/blob/master/Chrome-extension/short_url/screenshoot/1.png?raw=true)
+![screenshot](https://github.com/Wizmann/Utils/blob/master/Chrome-extension/short_url/screenshot/1.png?raw=true)
+
