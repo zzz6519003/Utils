@@ -1,0 +1,11 @@
+{
+  "name": "ExtRenrenMobile",
+  "version": "0.0.1",
+  "browser_action":
+  {
+    "default_icon": "images/icon.png",
+    "default_title": "人人网手机版",
+    "default_popup": "main.html"
+  },
+  "manifest_version": 2
+}

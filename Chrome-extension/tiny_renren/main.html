@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="bootstrap/css/docs.css" rel="stylesheet">
+    <link href="bootstrap/js/google-code-prettify/prettify.css" rel="stylesheet">
+    <script src="bootstrap/js/jquery.js"></script>
+    <script src="bootstrap/js/google-code-prettify/prettify.js"></script>
+    <script src="bootstrap/js/bootstrap-transition.js"></script>
+    <script src="bootstrap/js/bootstrap-alert.js"></script>
+    <script src="bootstrap/js/bootstrap-modal.js"></script>
+    <script src="bootstrap/js/bootstrap-dropdown.js"></script>
+    <script src="bootstrap/js/bootstrap-scrollspy.js"></script>
+    <script src="bootstrap/js/bootstrap-tab.js"></script>
+    <script src="bootstrap/js/bootstrap-tooltip.js"></script>
+    <script src="bootstrap/js/bootstrap-popover.js"></script>
+    <script src="bootstrap/js/bootstrap-button.js"></script>
+    <script src="bootstrap/js/bootstrap-collapse.js"></script>
+    <script src="bootstrap/js/bootstrap-carousel.js"></script>
+    <script src="bootstrap/js/bootstrap-typeahead.js"></script>
+    <script src="bootstrap/js/application.js"></script>
+    <script type="text/javascript" src="popup.js"></script>
+	<style type="text/css">
+	#MainFrm
+    {
+        width:480px; 
+        height:480px;
+    }
+    .cmd
+    {
+        border-style : dashed;
+        border-width : 1px;
+        background : #e9e9e9;
+    }
+    .browser
+    {
+        border-style : dashed;
+        border-width : 1px;
+    }
+	</style>
+</head>
+<body>
+    <div class="container">
+        <div class="row-fluid cmd" style="white-space:nowrap">
+            <div class = "btn-toolbar">
+                <button type="button" class="btn btn-primary pull-left" id="goBack">后退</button>
+                <button type="button" class="btn btn-warning pull-left" id="goForward">前进</button>
+                <span class="btn-group">
+                    <button type="button" class="btn btn-danger" id="addBookmark">书签</button>
+                    <a class="btn btn-danger dropdown-toggle" data-toggle="dropdown" href="#" id='getBookmark'><span class="caret"></span></a>
+                    <ul class="dropdown-menu" id="Bookmark-Menu">
+                        <li><a href="#"><i class="icon-pencil"></i> 修改</a></li>
+                        <li><a href="#"><i class="icon-trash"></i> 删除</a></li>
+                        <li><a href="#"><i class="icon-ban-circle"></i> 禁止</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#"><i class="i"></i> 设为管理员</a></li>
+                    </ul>
+                </span>
+                <button class="btn btn-success pull-right" type="button" id="run">
+                    <i class = "icon-play icon-white"></i>转到
+                </button>
+                <input class ="input-middle search-query pull-right" id="urlInput" type="text">
+            </div>
+        </div>
+        <div class="browser">
+            <iframe src="" marginwidth="0" marginheight="0" frameborder="0" id="MainFrm"> </iframe>
+        </div>
+    </div>
+</body>
+</html>
