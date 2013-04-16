@@ -8,7 +8,7 @@
 
 推荐用户使用最新版的Chrome浏览器，开发所用的Chrome版本是``Chrome 26.0.1410.63``，操作系统为``OpenSuse 12.3``。
 
-对于其它平台，如360<del>不</del>安全/极速浏览器或Windows平台下的Chrome浏览器并没有进行测试。
+对于其它平台，如360<del>不</del>安全/极速浏览器<del>或Windows平台下的Chrome浏览器并</del>没有进行测试。
 
 ### 如何安装
 
